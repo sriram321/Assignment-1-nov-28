@@ -1,0 +1,9 @@
+balance=1000
+print("Enter amount to be credited:")
+cr=int(input())
+tot_bal=balance+cr
+if tot_bal>1000:
+    print("Credited Amount:",cr)
+    print("Main Balance:",balance+cr)
+else:
+    print("Amount not credited!")
